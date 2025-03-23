@@ -15,6 +15,7 @@
 - [x] Responsive layouts for all pages
 - [x] SVG logo integration in navigation
 - [x] Navigation divider for visual separation
+- [x] Team member photos with responsive layout
 
 ### Functionality
 - [x] Mobile navigation toggle
@@ -36,7 +37,7 @@
 - [ ] Blog/news section
 
 ## Current Status
-The website is functional and ready for initial review. All core pages are complete with responsive designs implemented. The recent addition of the SVG logo and navigation divider enhances the visual hierarchy and brand presence.
+The website is functional and ready for initial review. All core pages are complete with responsive designs implemented. The recent addition of the SVG logo and navigation divider enhances the visual hierarchy and brand presence. Team member photos have been added to the About page with a responsive layout that positions Pastor Medina's image on the left and Terez Villeda's image on the right, improving the visual appeal and personal connection with the team. The team photos have been elongated to 400px height and vertically centered with the text content to create a more balanced, professional presentation.
 
 ## Next Milestones
 1. Browser and device testing
