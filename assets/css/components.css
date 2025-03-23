@@ -1,0 +1,286 @@
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 16px 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-primary {
+    background-color: var(--forest-green);
+    color: var(--off-white);
+}
+
+.btn-primary:hover {
+    background-color: var(--medium-green);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--forest-green);
+    border: 2px solid var(--forest-green);
+    padding: 14px 32px;
+}
+
+.btn-secondary:hover {
+    background-color: rgba(63, 108, 81, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    min-height: 600px;
+    background-color: var(--deep-navy);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-top: 80px;
+}
+
+.hero-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 38, 57, 0.7);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+    background-color: rgba(26, 38, 57, 0.8);
+    padding: 40px;
+}
+
+.hero-content h1 {
+    color: var(--off-white);
+    margin-bottom: 0.5rem;
+}
+
+.hero-content p {
+    color: var(--off-white);
+    font-weight: 300;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: var(--forest-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scroll-indicator svg {
+    fill: none;
+    stroke: var(--off-white);
+    stroke-width: 3;
+}
+
+/* Introduction Section */
+.intro {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.intro-content {
+    max-width: 800px;
+}
+
+/* Featured Projects Section */
+.featured-projects {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: var(--off-white);
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+}
+
+.project-item {
+    position: relative;
+    overflow: hidden;
+    grid-column: span 4;
+    height: 320px;
+}
+
+.project-item.large {
+    grid-column: span 5;
+    height: 380px;
+}
+
+.project-item.feature {
+    grid-column: span 3;
+    grid-row: span 2;
+    height: auto;
+    background-color: var(--forest-green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-item-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-item-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(26, 38, 57, 0.8);
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover .project-item-overlay {
+    transform: translateY(0);
+}
+
+.project-item-title {
+    color: var(--off-white);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    margin-bottom: 5px;
+}
+
+.project-item-category {
+    color: var(--light-stone);
+    font-size: 0.875rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.project-item.feature a {
+    color: var(--off-white);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+/* Services Overview Section */
+.services-overview {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--warm-cream);
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-icon {
+    font-size: 2.5rem;
+    color: var(--forest-green);
+    margin-bottom: 20px;
+}
+
+.service-title {
+    margin-bottom: 15px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--off-white);
+}
+
+.testimonial-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    color: var(--deep-navy);
+}
+
+.testimonial-project {
+    font-size: 0.875rem;
+    color: var(--charcoal);
+    font-weight: 300;
+}
+
+/* Call to Action Section */
+.cta {
+    padding: 80px 0;
+    background-color: var(--deep-navy);
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cta h2 {
+    color: var(--off-white);
+}
+
+.cta p {
+    color: var(--light-stone);
+    margin-bottom: 30px;
+}

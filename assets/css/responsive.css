@@ -1,0 +1,123 @@
+/* Responsive Styles */
+
+/* Tablet (Medium Screens) */
+@media (max-width: 1023px) {
+    section {
+        padding: 48px 0;
+    }
+
+    .project-item {
+        grid-column: span 6;
+    }
+
+    .project-item.large {
+        grid-column: span 6;
+    }
+
+    .project-item.feature {
+        grid-column: span 6;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-column {
+        flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Mobile (Small Screens) */
+@media (max-width: 767px) {
+    section {
+        padding: 32px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background-color: var(--deep-navy);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: left 0.3s ease;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-item {
+        grid-column: span 12;
+    }
+
+    .project-item.large {
+        grid-column: span 12;
+    }
+
+    .project-item.feature {
+        grid-column: span 12;
+        height: 200px;
+    }
+
+    .footer-column {
+        flex: 0 0 100%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-bottom-links {
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .footer-bottom-links li {
+        margin: 0 10px;
+    }
+}
+
+/* Large Desktop Screens */
+@media (min-width: 1440px) {
+    .container {
+        padding: 0 calc((100% - 1440px) / 2);
+    }
+    
+    .hero-content {
+        max-width: 700px;
+    }
+}
