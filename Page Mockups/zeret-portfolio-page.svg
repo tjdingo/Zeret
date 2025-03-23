@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1800">
+  <!-- Background -->
+  <rect width="1440" height="1800" fill="#F2F2F2"/>
+  
+  <!-- Header Navigation -->
+  <rect x="0" y="0" width="1440" height="80" fill="#1A2639"/>
+  <text x="100" y="50" font-family="Montserrat" font-weight="700" font-size="28" fill="#F2F2F2">ZERET ARCHITECTURE</text>
+  
+  <!-- Navigation Items -->
+  <text x="880" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">HOME</text>
+  <text x="960" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">ABOUT</text>
+  <text x="1040" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">SERVICES</text>
+  <text x="1140" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">PORTFOLIO</text>
+  <rect x="1140" y="55" width="80" height="3" fill="#3F6C51"/>
+  <text x="1250" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">CONTACT</text>
+  
+  <!-- Portfolio Banner -->
+  <rect x="0" y="80" width="1440" height="250" fill="#D6D5C9"/>
+  <rect x="0" y="80" width="1440" height="250" fill-opacity="0.7"/>
+  <text x="100" y="220" font-family="Montserrat" font-weight="700" font-size="48" fill="#1A2639">OUR WORK</text>
+  <rect x="100" y="240" width="60" height="4" fill="#3F6C51"/>
+  
+  <!-- Filter System -->
+  <rect x="100" y="370" width="1240" height="60" fill="#F2F2F2"/>
+  <rect x="100" y="370" width="120" height="60" fill="#3F6C51"/>
+  <text x="135" y="408" font-family="Montserrat" font-weight="600" font-size="16" fill="#F2F2F2">ALL</text>
+  
+  <rect x="230" y="370" width="180" height="60" fill="#F2F2F2" stroke="#D6D5C9" stroke-width="1"/>
+  <text x="280" y="408" font-family="Montserrat" font-weight="400" font-size="16" fill="#1A2639">HEALTHCARE</text>
+  
+  <rect x="420" y="370" width="180" height="60" fill="#F2F2F2" stroke="#D6D5C9" stroke-width="1"/>
+  <text x="460" y="408" font-family="Montserrat" font-weight="400" font-size="16" fill="#1A2639">RESIDENTIAL</text>
+  
+  <rect x="610" y="370" width="180" height="60" fill="#F2F2F2" stroke="#D6D5C9" stroke-width="1"/>
+  <text x="645" y="408" font-family="Montserrat" font-weight="400" font-size="16" fill="#1A2639">COMMERCIAL</text>
+  
+  <!-- Project Grid - Masonry Style -->
+  <!-- Row 1 -->
+  <rect x="100" y="460" width="380" height="320" fill="#D6D5C9"/>
+  <rect x="100" y="780" width="380" height="80" fill="#1A2639" fill-opacity="0.8"/>
+  <text x="120" y="820" font-family="Montserrat" font-weight="500" font-size="16" fill="#F2F2F2">Interfaith Medical Center</text>
+  <text x="120" y="845" font-family="Montserrat" font-weight="300" font-size="12" fill="#D6D5C9">HEALTHCARE • 2020</text>
+  
+  <rect x="500" y="460" width="380" height="450" fill="#D6D5C9"/>
+  <rect x="500" y="910" width="380" height="80" fill="#1A2639" fill-opacity="0.8"/>
+  <text x="520" y="950" font-family="Montserrat" font-weight="500" font-size="16" fill="#F2F2F2">NY Methodist Hospital</text>
+  <text x="520" y="975" font-family="Montserrat" font-weight="300" font-size="12" fill="#D6D5C9">HEALTHCARE • 2022</text>
+  
+  <rect x="900" y="460" width="380" height="280" fill="#D6D5C9"/>
+  <rect x="900" y="740" width="380" height="80" fill="#1A2639" fill-opacity="0.8"/>
+  <text x="920" y="780" font-family="Montserrat" font-weight="500" font-size="16" fill="#F2F2F2">Staff Housing Project</text>
+  <text x="920" y="805" font-family="Montserrat" font-weight="300" font-size="12" fill="#D6D5C9">RESIDENTIAL • 2021</text>
+  
+  <!-- Row 2 -->
+  <rect x="100" y="890" width="380" height="400" fill="#D6D5C9"/>
+  <rect x="100" y="1290" width="380" height="80" fill="#1A2639" fill-opacity="0.8"/>
+  <text x="120" y="1330" font-family="Montserrat" font-weight="500" font-size="16" fill="#F2F2F2">Academy of Medicine</text>
+  <text x="120" y="1355" font-family="Montserrat" font-weight="300" font-size="12" fill="#D6D5C9">INSTITUTIONAL • 2019</text>
+  
+  <rect x="900" y="850" width="380" height="350" fill="#D6D5C9"/>
+  <rect x="900" y="1200" width="380" height="80" fill="#1A2639" fill-opacity="0.8"/>
+  <text x="920" y="1240" font-family="Montserrat" font-weight="500" font-size="16" fill="#F2F2F2">Radiology Center</text>
+  <text x="920" y="1265" font-family="Montserrat" font-weight="300" font-size="12" fill="#D6D5C9">HEALTHCARE • 2023</text>
+  
+  <rect x="500" y="1020" width="380" height="380" fill="#D6D5C9"/>
+  <rect x="500" y="1400" width="380" height="80" fill="#1A2639" fill-opacity="0.8"/>
+  <text x="520" y="1440" font-family="Montserrat" font-weight="500" font-size="16" fill="#F2F2F2">Long Island College Hospital</text>
+  <text x="520" y="1465" font-family="Montserrat" font-weight="300" font-size="12" fill="#D6D5C9">HEALTHCARE • 2022</text>
+  
+  <!-- Project Pagination -->
+  <rect x="640" y="1520" width="160" height="60" fill="#F2F2F2" stroke="#D6D5C9" stroke-width="1"/>
+  <text x="705" y="1558" font-family="Montserrat" font-weight="600" font-size="16" fill="#1A2639">LOAD MORE</text>
+  
+  <!-- Footer -->
+  <rect x="0" y="1650" width="1440" height="150" fill="#1A2639"/>
+  <text x="100" y="1710" font-family="Montserrat" font-weight="700" font-size="20" fill="#F2F2F2">ZERET ARCHITECTURE</text>
+  <text x="100" y="1750" font-family="Montserrat" font-weight="300" font-size="14" fill="#D6D5C9">New York City | info@zeretarchitecture.com | © 2025 Zeret Architecture</text>
+  
+  <!-- Social Icons -->
+  <circle cx="1200" y="1710" r="15" fill="#3F6C51"/>
+  <circle cx="1240" y="1710" r="15" fill="#3F6C51"/>
+  <circle cx="1280" y="1710" r="15" fill="#3F6C51"/>
+</svg>

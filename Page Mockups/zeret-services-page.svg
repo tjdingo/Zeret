@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 2400">
+  <!-- Background -->
+  <rect width="1440" height="2400" fill="#F2F2F2"/>
+  
+  <!-- Header Navigation -->
+  <rect x="0" y="0" width="1440" height="80" fill="#1A2639"/>
+  <text x="100" y="50" font-family="Montserrat" font-weight="700" font-size="28" fill="#F2F2F2">ZERET ARCHITECTURE</text>
+  
+  <!-- Navigation Items -->
+  <text x="880" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">HOME</text>
+  <text x="960" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">ABOUT</text>
+  <text x="1040" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">SERVICES</text>
+  <rect x="1040" y="55" width="70" height="3" fill="#3F6C51"/>
+  <text x="1140" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">PORTFOLIO</text>
+  <text x="1250" y="50" font-family="Montserrat" font-weight="400" font-size="16" fill="#F2F2F2">CONTACT</text>
+  
+  <!-- Services Banner -->
+  <rect x="0" y="80" width="1440" height="400" fill="#D6D5C9"/>
+  <rect x="0" y="80" width="1440" height="400" fill-opacity="0.7"/>
+  <rect x="0" y="300" width="1440" height="180" fill="#1A2639" fill-opacity="0.7"/>
+  <text x="100" y="400" font-family="Montserrat" font-weight="700" font-size="48" fill="#F2F2F2">OUR SERVICES</text>
+  
+  <!-- Commercial Architecture Section -->
+  <text x="100" y="550" font-family="Montserrat" font-weight="700" font-size="32" fill="#1A2639">COMMERCIAL ARCHITECTURE</text>
+  <rect x="100" y="570" width="60" height="4" fill="#3F6C51"/>
+  
+  <!-- Two column layout -->
+  <text x="100" y="630" width="550" font-family="Montserrat" font-weight="400" font-size="16" fill="#2C3A47" line-height="1.6">
+    Our commercial architecture services blend functionality with innovative design to create environments that enhance productivity and reflect your brand identity. We understand that commercial spaces must serve multiple purposes - attracting clients, supporting employees, and optimizing operations.
+  </text>
+  
+  <!-- Service Bullets -->
+  <circle cx="120" cy="720" r="5" fill="#3F6C51"/>
+  <text x="140" y="725" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">Office Spaces</text>
+  
+  <circle cx="120" cy="760" r="5" fill="#3F6C51"/>
+  <text x="140" y="765" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">Retail Environments</text>
+  
+  <circle cx="120" cy="800" r="5" fill="#3F6C51"/>
+  <text x="140" y="805" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">Hospitality Design</text>
+  
+  <circle cx="120" cy="840" r="5" fill="#3F6C51"/>
+  <text x="140" y="845" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">Mixed-use Developments</text>
+  
+  <!-- Example Images -->
+  <rect x="720" y="550" width="600" height="350" fill="#D6D5C9"/>
+  
+  <rect x="100" y="880" width="180" height="50" fill="transparent" stroke="#3F6C51" stroke-width="2"/>
+  <text x="125" y="912" font-family="Montserrat" font-weight="600" font-size="16" fill="#3F6C51">VIEW PROJECTS</text>
+  
+  <!-- Residential Architecture Section -->
+  <text x="100" y="1000" font-family="Montserrat" font-weight="700" font-size="32" fill="#1A2639">RESIDENTIAL ARCHITECTURE</text>
+  <rect x="100" y="1020" width="60" height="4" fill="#3F6C51"/>
+  
+  <!-- Two column layout -->
+  <text x="100" y="1080" width="550" font-family="Montserrat" font-weight="400" font-size="16" fill="#2C3A47" line-height="1.6">
+    Our residential architecture services focus on creating living spaces that reflect your lifestyle and aspirations. From new construction to renovations, we combine thoughtful design with precise execution to transform your vision into reality. Each project balances aesthetic beauty with practical functionality.
+  </text>
+  
+  <!-- Service Bullets -->
+  <circle cx="120" cy="1170" r="5" fill="#3F6C51"/>
+  <text x="140" y="1175" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">New Construction</text>
+  
+  <circle cx="120" cy="1210" r="5" fill="#3F6C51"/>
+  <text x="140" y="1215" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">Renovations</text>
+  
+  <circle cx="120" cy="1250" r="5" fill="#3F6C51"/>
+  <text x="140" y="1255" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">Interior Design</text>
+  
+  <circle cx="120" cy="1290" r="5" fill="#3F6C51"/>
+  <text x="140" y="1295" font-family="Montserrat" font-weight="500" font-size="16" fill="#2C3A47">Sustainable Homes</text>
+  
+  <!-- Example Images -->
+  <rect x="720" y="1000" width="600" height="350" fill="#D6D5C9"/>
+  
+  <rect x="100" y="1330" width="180" height="50" fill="transparent" stroke="#3F6C51" stroke-width="2"/>
+  <text x="125" y="1362" font-family="Montserrat" font-weight="600" font-size="16" fill="#3F6C51">VIEW PROJECTS</text>
+  
+  <!-- Process Section -->
+  <rect x="0" y="1450" width="1440" height="600" fill="#E8E4D9"/>
+  <text x="100" y="1550" font-family="Montserrat" font-weight="700" font-size="32" fill="#1A2639">OUR PROCESS</text>
+  <rect x="100" y="1570" width="60" height="4" fill="#3F6C51"/>
+  
+  <!-- Process Timeline -->
+  <line x1="100" y1="1650" x2="1340" y2="1650" stroke="#3F6C51" stroke-width="3"/>
+  
+  <!-- Timeline Nodes -->
+  <circle cx="200" cy="1650" r="15" fill="#3F6C51"/>
+  <text x="200" y="1700" font-family="Montserrat" font-weight="600" font-size="16" fill="#1A2639" text-anchor="middle">01</text>
+  <text x="200" y="1730" font-family="Montserrat" font-weight="500" font-size="18" fill="#1A2639" text-anchor="middle">Consultation</text>
+  
+  <circle cx="450" cy="1650" r="15" fill="#3F6C51"/>
+  <text x="450" y="1700" font-family="Montserrat" font-weight="600" font-size="16" fill="#1A2639" text-anchor="middle">02</text>
+  <text x="450" y="1730" font-family="Montserrat" font-weight="500" font-size="18" fill="#1A2639" text-anchor="middle">Concept Design</text>
+  
+  <circle cx="700" cy="1650" r="15" fill="#3F6C51"/>
+  <text x="700" y="1700" font-family="Montserrat" font-weight="600" font-size="16" fill="#1A2639" text-anchor="middle">03</text>
+  <text x="700" y="1730" font-family="Montserrat" font-weight="500" font-size="18" fill="#1A2639" text-anchor="middle">Development</text>
+  
+  <circle cx="950" cy="1650" r="15" fill="#3F6C51"/>
+  <text x="950" y="1700" font-family="Montserrat" font-weight="600" font-size="16" fill="#1A2639" text-anchor="middle">04</text>
+  <text x="950" y="1730" font-family="Montserrat" font-weight="500" font-size="18" fill="#1A2639" text-anchor="middle">Documentation</text>
+  
+  <circle cx="1200" cy="1650" r="15" fill="#3F6C51"/>
+  <text x="1200" y="1700" font-family="Montserrat" font-weight="600" font-size="16" fill="#1A2639" text-anchor="middle">05</text>
+  <text x="1200" y="1730" font-family="Montserrat" font-weight="500" font-size="18" fill="#1A2639" text-anchor="middle">Construction</text>
+  <text x="1200" y="1755" font-family="Montserrat" font-weight="500" font-size="18" fill="#1A2639" text-anchor="middle">Administration</text>
+  
+  <!-- Process Description -->
+  <text x="100" y="1850" width="1240" font-family="Montserrat" font-weight="400" font-size="16" fill="#2C3A47" line-height="1.6" text-anchor="middle">
+    Our streamlined process ensures that every project moves efficiently from concept to completion, with clear communication at every stage. We begin with a thorough consultation to understand your vision, develop concept designs that align with your goals, refine those designs during development, create comprehensive documentation, and provide expert oversight during construction.
+  </text>
+  
+  <!-- FAQ Section -->
+  <text x="100" y="2050" font-family="Montserrat" font-weight="700" font-size="32" fill="#1A2639">FREQUENTLY ASKED QUESTIONS</text>
+  <rect x="100" y="2070" width="60" height="4" fill="#3F6C51"/>
+  
+  <!-- FAQ Accordions -->
+  <rect x="100" y="2120" width="1240" height="70" fill="#F2F2F2" stroke="#D6D5C9" stroke-width="1"/>
+  <text x="140" y="2165" font-family="Montserrat" font-weight="500" font-size="16" fill="#1A2639">What is the typical timeline for a project?</text>
+  <text x="1300" y="2165" font-family="Montserrat" font-weight="700" font-size="20" fill="#3F6C51">+</text>
+  
+  <rect x="100" y="2200" width="1240" height="70" fill="#F2F2F2" stroke="#D6D5C9" stroke-width="1"/>
+  <text x="140" y="2245" font-family="Montserrat" font-weight="500" font-size="16" fill="#1A2639">How do you determine project budgets?</text>
+  <text x="1300" y="2245" font-family="Montserrat" font-weight="700" font-size="20" fill="#3F6C51">+</text>
+  
+  <rect x="100" y="2280" width="1240" height="70" fill="#F2F2F2" stroke="#D6D5C9" stroke-width="1"/>
+  <text x="140" y="2325" font-family="Montserrat" font-weight="500" font-size="16" fill="#1A2639">What permits and approvals will my project require?</text>
+  <text x="1300" y="2325" font-family="Montserrat" font-weight="700" font-size="20" fill="#3F6C51">+</text>
+</svg>
