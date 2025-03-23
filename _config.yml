@@ -1,0 +1,26 @@
+# Jekyll configuration for GitHub Pages
+include:
+  - assets
+  - assets/css
+  - assets/js
+  - assets/images
+  - assets/images/hero
+  - assets/images/logo
+  - assets/images/projects
+  - assets/images/team
+  - cline_docs
+
+# Exclude node_modules, custom build directories, etc.
+exclude:
+  - .git
+  - .github
+  - node_modules
+  - vendor
+
+# Set default permalink style
+permalink: pretty
+
+# Disable Jekyll from processing certain directories
+keep_files:
+  - assets
+  - cline_docs
