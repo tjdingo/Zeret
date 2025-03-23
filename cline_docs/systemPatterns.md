@@ -23,9 +23,9 @@ Zeret/
 ## Design Patterns
 
 ### Navigation
-- Fixed header with logo, navigation links, and mobile hamburger menu
+- Fixed header with SVG logo, navigation links, and mobile hamburger menu
 - Active state indication for current page
-- New horizontal divider below navigation
+- Integrated forest-green bottom border on navbar for visual separation
 
 ### Layout
 - Container-based layout with max-width and centered content

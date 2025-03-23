@@ -23,7 +23,7 @@
 - [x] Hero image slider on homepage
 
 ## In Progress
-- [ ] Complete Memory Bank documentation
+- [x] Complete Memory Bank documentation
 - [ ] Testing across all browsers and devices
 
 ## Planned Features
